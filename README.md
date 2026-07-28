@@ -1,16 +1,69 @@
-# React + Vite
+# Healthy-Food App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web application built with React to help users manage, view, and explore healthy food items and daily meal choices.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Healthy-Food is a frontend application designed to encourage healthy eating habits. It allows users to view a list of nutritious food items, add items to a personal daily food list, and calculate or track their choices seamlessly with a clean user interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Food Item List:** Browse through a variety of healthy food options with nutritional details.
+* **Active List Management:** Add or track items in your daily food basket.
+* **Responsive Design:** Optimized layout for smooth viewing across all devices (desktop, tablet, and mobile).
+* **Interactive UI:** Clean component-based architecture built with modern frontend tools.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6+)
+* HTML5 / CSS3
+* Vite
+
+## Project Structure
+
+```text
+healthy-food/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── package.json
+└── vite.config.js
+```
+Getting Started
+Prerequisites
+Ensure you have the following installed on your system:
+
+Node.js (v18 or above)
+
+npm
+
+Installation
+1. Clone the Repository
+   git clone [https://github.com/shubhampathare25/healthy-food.git](https://github.com/shubhampathare25/healthy-food.git)
+
+2. Navigate to the project folder
+   cd healthy-food
+
+3. Install dependencies
+   npm install
+
+4. Run Development Server
+   npm run dev
+
+5. Open your browser
+http://localhost:5173
+
+Usage:
+
+Explore the list of healthy food items.
+Add items to your daily food consumption list.
+Enjoy a clean, fast, and healthy-themed user interface.
+
+Future Enhancements:
+
+Calorie tracking and calculation feature
+Search and dietary filter options (Vegan, Gluten-Free, etc.)
+User meal planning dashboard
