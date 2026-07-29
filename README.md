@@ -32,6 +32,9 @@ healthy-food/
 ├── package.json
 └── vite.config.js
 ```
+Preview:
+<img width="496" height="157" alt="image" src="https://github.com/user-attachments/assets/c7ace166-a49c-4ecf-878d-ce159fffb4a8" />
+
 Getting Started
 Prerequisites
 Ensure you have the following installed on your system:
